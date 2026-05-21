@@ -1,0 +1,6 @@
+[project]
+name = "selling_theme"
+version = "0.0.1"
+
+[tool.flit.metadata]
+module = "selling_theme"

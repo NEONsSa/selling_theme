@@ -1,0 +1,183 @@
+/* =====================================================
+   ERPNext — Bold & Colorful Light Mode
+   Selling Module Redesign
+   ===================================================== */
+
+/* Navbar */
+.navbar {
+  background: #ffffff !important;
+  border-bottom: 2.5px solid #7f77dd !important;
+  box-shadow: 0 2px 12px rgba(127,119,221,0.10) !important;
+}
+.navbar .nav-link,
+.navbar .navbar-nav .nav-link {
+  color: #3C3489 !important;
+  font-weight: 500 !important;
+}
+.navbar .nav-link:hover { color: #7f77dd !important; }
+
+/* Page background */
+.page-container, .main-section { background: #f5f4f9 !important; }
+
+/* Page title */
+.title-text, .page-title { color: #3C3489 !important; font-weight: 600 !important; }
+.breadcrumb-item a { color: #7f77dd !important; }
+
+/* Left sidebar */
+.layout-side-section, .list-sidebar {
+  background: #ffffff !important;
+  border-right: 1.5px solid #eeedfe !important;
+}
+.list-sidebar .list-link {
+  color: #534AB7 !important;
+  border-radius: 8px !important;
+  font-weight: 500 !important;
+  padding: 5px 10px !important;
+}
+.list-sidebar .list-link:hover { background: #eeedfe !important; color: #3C3489 !important; }
+.list-sidebar .list-link.active { background: #534AB7 !important; color: #fff !important; }
+
+/* Workspace shortcut & link cards */
+.widget.shortcut-widget-box,
+.widget.links-widget-box {
+  background: #ffffff !important;
+  border: 1.5px solid #eeedfe !important;
+  border-radius: 14px !important;
+  box-shadow: 0 2px 10px rgba(127,119,221,0.08) !important;
+  transition: box-shadow 0.2s, transform 0.2s !important;
+}
+.widget.shortcut-widget-box:hover,
+.widget.links-widget-box:hover {
+  box-shadow: 0 6px 24px rgba(83,74,183,0.15) !important;
+  transform: translateY(-2px) !important;
+}
+.widget-head .widget-title {
+  color: #3C3489 !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+}
+
+/* Workspace section headers */
+.workspace-section-title { color: #534AB7 !important; border-left: 3px solid #7f77dd; padding-left: 8px !important; font-weight: 600 !important; }
+
+/* Shortcut count badges */
+.badge-pill { background: #534AB7 !important; color: #fff !important; border-radius: 20px !important; }
+
+/* Number / KPI cards */
+.number-card-container .number-card {
+  border-radius: 14px !important;
+  border: none !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07) !important;
+}
+.number-card-container .number-card:nth-child(4n+1) { background: linear-gradient(135deg,#7f77dd,#534AB7) !important; }
+.number-card-container .number-card:nth-child(4n+2) { background: linear-gradient(135deg,#EF9F27,#BA7517) !important; }
+.number-card-container .number-card:nth-child(4n+3) { background: linear-gradient(135deg,#1D9E75,#0F6E56) !important; }
+.number-card-container .number-card:nth-child(4n+4) { background: linear-gradient(135deg,#D85A30,#993C1D) !important; }
+.number-card-container .number-card .number-card-label,
+.number-card-container .number-card .number-card-count { color: #fff !important; }
+.number-card-container .number-card .number-card-count { font-size: 28px !important; font-weight: 600 !important; }
+
+/* Status indicator pills */
+.indicator-pill.blue   { background: #EEEDFE !important; color: #3C3489 !important; }
+.indicator-pill.green  { background: #E1F5EE !important; color: #0F6E56 !important; }
+.indicator-pill.red    { background: #FAECE7 !important; color: #993C1D !important; }
+.indicator-pill.orange { background: #FAEEDA !important; color: #854F0B !important; }
+.indicator-pill.gray   { background: #F1EFE8 !important; color: #5F5E5A !important; }
+.indicator-pill.yellow { background: #FAEEDA !important; color: #854F0B !important; }
+.indicator-pill {
+  border-radius: 20px !important;
+  font-weight: 500 !important;
+  font-size: 11px !important;
+  padding: 3px 10px !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background: #534AB7 !important;
+  border: none !important;
+  border-radius: 8px !important;
+  font-weight: 500 !important;
+  box-shadow: 0 2px 8px rgba(83,74,183,0.25) !important;
+  transition: background 0.15s !important;
+}
+.btn-primary:hover { background: #3C3489 !important; }
+.btn-default, .btn-secondary {
+  border-radius: 8px !important;
+  border: 1.5px solid #AFA9EC !important;
+  color: #534AB7 !important;
+  font-weight: 500 !important;
+}
+.btn-default:hover, .btn-secondary:hover { background: #eeedfe !important; }
+
+/* List rows */
+.list-row-container .list-row {
+  background: #ffffff !important;
+  border-radius: 10px !important;
+  border: 1px solid #eeedfe !important;
+  margin-bottom: 4px !important;
+  transition: box-shadow 0.15s !important;
+}
+.list-row-container .list-row:hover {
+  box-shadow: 0 3px 14px rgba(83,74,183,0.12) !important;
+  border-color: #AFA9EC !important;
+}
+.list-row .list-subject .level-item a { color: #534AB7 !important; font-weight: 500 !important; }
+
+/* Form section headers */
+.form-section .section-head {
+  background: #eeedfe !important;
+  color: #534AB7 !important;
+  border-radius: 8px !important;
+  padding: 6px 12px !important;
+  font-weight: 500 !important;
+}
+
+/* Form labels */
+.frappe-control label.control-label {
+  color: #534AB7 !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+}
+
+/* Form inputs */
+.form-control,
+.frappe-control input,
+.frappe-control select,
+.frappe-control textarea {
+  border: 1.5px solid #CECBF6 !important;
+  border-radius: 8px !important;
+  background: #faf9ff !important;
+  color: #26215C !important;
+}
+.form-control:focus,
+.frappe-control input:focus {
+  border-color: #7f77dd !important;
+  box-shadow: 0 0 0 3px rgba(127,119,221,0.15) !important;
+}
+
+/* Data table */
+.datatable .dt-header .dt-cell {
+  background: #eeedfe !important;
+  color: #3C3489 !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+  letter-spacing: 0.4px !important;
+  text-transform: uppercase !important;
+}
+.datatable .dt-row:hover .dt-cell { background: #f5f4ff !important; }
+.datatable .dt-cell--highlight { background: #EEEDFE !important; }
+
+/* Tabs */
+.nav-tabs .nav-link.active {
+  color: #534AB7 !important;
+  border-bottom: 2px solid #534AB7 !important;
+  font-weight: 500 !important;
+  background: transparent !important;
+}
+.nav-tabs .nav-link { color: #888780 !important; }
+.nav-tabs .nav-link:hover { color: #534AB7 !important; }
+
+/* Alerts */
+.alert-success { background: #EAF3DE !important; border-color: #639922 !important; color: #27500A !important; }
+.alert-danger   { background: #FCEBEB !important; border-color: #E24B4A !important; color: #501313 !important; }
+.alert-warning  { background: #FAEEDA !important; border-color: #EF9F27 !important; color: #633806 !important; }
